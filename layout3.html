@@ -1,0 +1,77 @@
+<html>
+<head>
+    <title>Layout 3</title>
+    <style>
+        body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header,
+nav,
+main,
+footer {
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #000;
+}
+
+header,
+footer {
+    background-color: #333;
+    color: #fff;
+}
+
+nav {
+    background-color: #f2f2f2;
+}
+
+main {
+    width: 50%;
+    height: 50vh;
+    background-color: #f8f1f1;
+}
+
+.wew {
+    float: left;
+}
+.wews {
+    width: 20%;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Header</h1>
+    </header>
+
+    <nav>
+        <h1>Navigation</h1>
+    </nav>
+
+    <div class="container">
+    <main class="wews">
+        <h1>Side Content</h1>
+    </main>
+
+    <main class="wew">
+        <h1>Content</h1>
+    </main>
+
+    <main class="wews">
+        <h1>Side Content</h1>
+    </main>
+</div>
+
+    <footer>
+        <h1>Footer</h1>
+    </footer>
+</body>
+</html>
