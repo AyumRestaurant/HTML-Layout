@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Layout 4</title>
+    <title>My Layout</title>
     <style>
         body {
             margin: 0;
@@ -16,7 +16,7 @@
             margin: 4px;
             padding: 20px;
             text-align: center;
-            border: 2px solid #000;
+            border: 2px solid aqua;
         }
 
         header,
@@ -37,58 +37,61 @@
 
         .wew {
             float: left;
-            width: 88%;
-            text-align: center;
+            width: 45%;
+            height: 58vh;
+            
         }
 
-        .wew1{
-            width: 70vh;
-            height: 23vh;
-            float: left;
-        }
+        .wew1,
         .wew2 {
-            width: 35vh;
-            height: 23vh;
+            width: 420px;
+            height:250px;
             float: left;
         }
 
         .wew3 {
-            clear: both;
-            width: 37%;
-            height: 20vh;;
+            width: 90%;
+            height:250px;
+            float: right;
+        
         }
 
         .container {
-            clear: both;
             display: flex;
-            justify-content: space-between;
+            justify-content: flex-start;
+            flex-wrap: wrap;
         }
     </style>
 </head>
 <body>
 
 <header>
-    <h1>BANNER</h1>
+    <h1>HEADER</h1>
 </header>
 
 <nav>
-    <h1>NAVIGATION LINKS</h1>
+    <h1>NAVIGATION</h1>
 </nav>
-
+<main class="wew">
+    <h1>CONTENT</h1>
+   
+</main>
 <div class="container">
-    <main class="wew">
-        <h1>MAIN CONTENT</h1>
-    </main>
+    
 
     <main class="wew2">
-        <h1>PICTURE</h1>
+        <h1>SIDE CONTENT1</h1>
+       
     </main>
 
     <main class="wew1">
-        <h1>ABOUT ME BLURB</h1>
+        <h1>SIDE CONTENT2</h1>
+       
     </main>
+
     <main class="wew3">
-        <h1>RECENT TWEETS</h1>
+        <h1>SIDE CONTENT3</h1>
+       
     </main>
 </div>
 
